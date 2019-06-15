@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fuzzynetConsole" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/fuzzynetConsole" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/fuzzynetConsole" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="include/cadenas.h" />
+		<Unit filename="include/caso.h" />
+		<Unit filename="include/estrategia.h" />
+		<Unit filename="include/fuzzfunc.h" />
+		<Unit filename="include/fuzznum.h" />
+		<Unit filename="include/fuzzyvar.h" />
+		<Unit filename="include/libreria.h" />
+		<Unit filename="include/listacolores.h" />
+		<Unit filename="include/listadimensiones.h" />
+		<Unit filename="include/listafuentes.h" />
+		<Unit filename="include/listaselecciones.h" />
+		<Unit filename="include/mi_fstream.h" />
+		<Unit filename="include/nodocalculo.h" />
+		<Unit filename="include/propiedades.h" />
+		<Unit filename="include/proyecto.h" />
+		<Unit filename="include/region.h" />
+		<Unit filename="include/reporte.h" />
+		<Unit filename="include/reportehtml.h" />
+		<Unit filename="include/reportelatex.h" />
+		<Unit filename="include/reportetexto.h" />
+		<Unit filename="include/xpms.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/caso.cpp" />
+		<Unit filename="src/diputacion.cpp" />
+		<Unit filename="src/estrategia.cpp" />
+		<Unit filename="src/fuzzfunc.cpp" />
+		<Unit filename="src/fuzznum.cpp" />
+		<Unit filename="src/fuzzyvar.cpp" />
+		<Unit filename="src/libreria.cpp" />
+		<Unit filename="src/listacolores.cpp" />
+		<Unit filename="src/listadimensiones.cpp" />
+		<Unit filename="src/listafuentes.cpp" />
+		<Unit filename="src/listaselecciones.cpp" />
+		<Unit filename="src/mi_fstream.cpp" />
+		<Unit filename="src/montse.cpp" />
+		<Unit filename="src/nodocalculo.cpp" />
+		<Unit filename="src/propiedades.cpp" />
+		<Unit filename="src/proyecto.cpp" />
+		<Unit filename="src/region.cpp" />
+		<Unit filename="src/reporte.cpp" />
+		<Unit filename="src/reportehtml.cpp" />
+		<Unit filename="src/reportelatex.cpp" />
+		<Unit filename="src/reportetexto.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
